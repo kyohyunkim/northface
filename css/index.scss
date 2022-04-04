@@ -1,10 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
 *{
     margin:0;padding:0;text-decoration: none;list-style:none;
     font-family: 'Zen Kaku Gothic New', sans-serif;
 }
-
+html{scroll-behavior: smooth;}
 body{
     background: #ececec;
     position:relative;
@@ -133,7 +134,7 @@ body{
     }
 
     .sec_2{
-        height: 1600px;
+        height: 1700px;
         padding:0 0 0 57vw;
         .txt_1{
             position: absolute;
@@ -178,13 +179,13 @@ body{
                 width:322px; 
             }
             .item{
-                animation:item1 2s infinite;
+                animation:item1 3s infinite;
                 animation-timing-function: linear;
             }
             .shadow{
-                animation:shadow1 2s infinite;
+                animation:shadow1 3s infinite;
                 animation-timing-function: linear;
-                transform: translate(50px,50px,);opacity: .3;
+                transform: translate(50px,50px,);opacity: .2;
             }
             @keyframes item1{
                 0%{transform: translate(0px,0px);}
@@ -232,6 +233,301 @@ body{
 
 .model{
     position:relative;
+    height:806px;
     .wrap{position:absolute;top:-150px;display: flex;}
-    img{width:50vw;}
+    .mod{width:50vw;}
+    .ss{
+        width:154px; position: absolute; bottom:-140px;
+        left:50vw;
+        margin-left:6.6vw;
+    }
+}
+
+.items{
+    padding-bottom: 200px;
+    .item_1{
+        position:relative;
+        height: 800px;
+        .hood{
+            .hoody{
+                left:20vw;
+                width:33vw;
+                position:absolute;
+                animation:item1 3s infinite;
+                animation-timing-function: linear;
+            }
+            .shadow{
+                left:20vw;
+                width:33vw;
+                position: absolute;
+                transform: translate(50px,50px);
+                opacity: 0.2;
+                animation:shadow1 3s infinite;
+                animation-timing-function: linear;
+            }
+            @keyframes item1{
+                0%{transform: translate(0px,0px);}
+                50%{transform: translate(0px,-15px);}
+                100%{transform: translate(0px,0px);}
+            }
+            @keyframes shadow1{
+                0%{transform: translate(50px,50px);}
+                50%{transform: translate(55px,55px);}
+                100%{transform: translate(50px,50px);}
+            }
+        }
+        .text{
+            position: absolute;
+            left:50vw!important;
+            top:11.8vw;
+            margin-left:6.6vw;
+        }
+    }
+
+    .item_2{
+        position:relative;height:500px;
+        .hood{
+            .hoody{
+                left:50vw;
+                width:22.5vw;
+                position:absolute;
+                animation:item1 3s infinite;
+                animation-timing-function: linear;
+                animation-delay: .7s;
+            }
+            .shadow{
+                left:50vw;
+                width:22.5vw;
+                position: absolute;
+                transform: translate(50px,50px);
+                opacity: 0.2;
+                animation:shadow1 3s infinite;
+                animation-timing-function: linear;
+                animation-delay: .7s;
+            }
+            @keyframes item1{
+                0%{transform: translate(0px,0px);}
+                50%{transform: translate(0px,-15px);}
+                100%{transform: translate(0px,0px);}
+            }
+            @keyframes shadow1{
+                0%{transform: translate(50px,50px);}
+                50%{transform: translate(55px,55px);}
+                100%{transform: translate(50px,50px);}
+            }
+        }
+        .text{
+            position: absolute;
+            left:70vw!important;
+            top:11.8vw;
+            margin-left:6.6vw;
+        }
+    }
+
+    .item_3{
+        position:relative;height:1400px;
+        .hood{
+            .hoody{
+                left:5vw;
+                width:50vw;
+                position:absolute;
+                animation:item1 3s infinite;
+                animation-timing-function: linear;
+            }
+            .shadow{
+                left:5vw;
+                width:50vw;
+                position: absolute;
+                transform: translate(50px,50px);
+                opacity: 0.2;
+                animation:shadow1 3s infinite;
+                animation-timing-function: linear;
+            }
+            @keyframes item1{
+                0%{transform: translate(0px,0px);}
+                50%{transform: translate(0px,-15px);}
+                100%{transform: translate(0px,0px);}
+            }
+            @keyframes shadow1{
+                0%{transform: translate(50px,50px);}
+                50%{transform: translate(55px,55px);}
+                100%{transform: translate(50px,50px);}
+            }
+        }
+        .text{
+            position: absolute;
+            left:50vw!important;
+            top:28vw;
+            margin-left:6.6vw;
+        }
+    }
+
+    .item_4{
+        position:relative;height:500px;
+        .hood{
+            .hoody{
+                left:43.4vw;
+                width:28vw;
+                position:absolute;
+                animation:item1 3s infinite;
+                animation-timing-function: linear;
+                animation-delay: .7s;
+            }
+            .shadow{
+                left:43.4vw;
+                width:28vw;
+                position: absolute;
+                transform: translate(50px,50px);
+                opacity: 0.2;
+                animation:shadow1 3s infinite;
+                animation-timing-function: linear;
+                animation-delay: .7s;
+            }
+            @keyframes item1{
+                0%{transform: translate(0px,0px);}
+                50%{transform: translate(0px,-15px);}
+                100%{transform: translate(0px,0px);}
+            }
+            @keyframes shadow1{
+                0%{transform: translate(50px,50px);}
+                50%{transform: translate(55px,55px);}
+                100%{transform: translate(50px,50px);}
+            }
+        }
+        .text{
+            position: absolute;
+            left:70vw!important;
+            top:2vw;
+            margin-left:6.6vw;
+        }
+    }
+
+    .item_5{
+        position:relative;
+        height:300px;
+        .hood{
+            .hoody{
+                left:24vw;
+                width:26vw;
+                position:absolute;
+                animation:item1 3s infinite;
+                animation-timing-function: linear;
+            }
+            .shadow{
+                left:24vw;
+                width:26vw;
+                position: absolute;
+                transform: translate(50px,50px);
+                opacity: 0.2;
+                animation:shadow1 3s infinite;
+                animation-timing-function: linear;
+            }
+            @keyframes item1{
+                0%{transform: translate(0px,0px);}
+                50%{transform: translate(0px,-15px);}
+                100%{transform: translate(0px,0px);}
+            }
+            @keyframes shadow1{
+                0%{transform: translate(50px,50px);}
+                50%{transform: translate(55px,55px);}
+                100%{transform: translate(50px,50px);}
+            }
+        }
+        .text{
+            position: absolute;
+            left:50vw!important;
+            top:2vw;
+            margin-left:6.6vw;
+        }
+    }
+
+    .text{
+        div{font-family: 'Inter', sans-serif!important;}
+        .link{position:relative;width:190px;}
+        .link:hover{opacity: .6;}
+        .link:hover::before{animation: beforeAni .7s forwards;}
+        .link:hover::after{animation: afterAni .5s forwards;}
+        .link::after{
+            content: '>';
+            font-size: 15px;
+            font-weight: 600;
+            color: #000;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(0px, -2px);
+        }
+        .link::before{
+            content:'';
+            overflow-x: hidden;
+            width:190px;
+            height: 2.5px;
+            background-color: #000;
+            position: absolute;
+            top:28px;
+        }
+        @keyframes afterAni{
+            50%{transform: translate(10px, -2px);}
+            100%{transform: translate(0px, -2px);}
+        }
+        @keyframes beforeAni{
+            50%{transform: translateX(190px);}
+            55%{display: none;}
+            60%{transform: translateX(0);width:0;}
+            100%{width:190px;}
+        }
+    }
+    .tit{font-size:22px;font-weight: 600;letter-spacing: -0.2px;transform: scaleY(.8);}
+    .num{
+        font-size: .9rem;
+        font-weight: 100;
+        transform: scaleY(.8);
+    }
+    .price{
+        font-weight: 300;
+        font-size: 14px;
+        margin: 18px 0 5px;
+        transform: scaleY(.8);
+    }
+    .sex{
+        font-weight: 300;
+        font-size: 14px;
+        transform: scaleY(.8);
+        margin-bottom:70px;
+    }
+    .buy::before{
+    }
+    .buy_title{
+        display: block;
+        margin-top:32px;
+    }
+}
+
+.aside_top{
+    cursor: pointer;
+    position: fixed;
+    bottom:100px;
+    right:50px;
+    img:nth-of-type(1){width:8px; display: block; padding-bottom:35px;}
+    img:nth-of-type(2){width:8px}
+}
+.aside_logo{
+    position: fixed;
+    bottom:100px;
+    left:50px;
+    img:nth-of-type(1){width:95px; display: block; padding-bottom:35px;}
+    img:nth-of-type(2){width:158px}
+}
+
+.line_text{
+    position:relative;
+    div{
+        background-image: url(https://kyohyunkim.github.io/northface/img/undyed_loop.svg);
+        background-repeat: repeat-x;
+        width:3584px;
+        height:27.4px;
+        position:absolute;
+        z-index: -1;
+        top:-200px;
+    }
 }
