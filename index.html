@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="css/index.css" rel="stylesheet">
+    <script defer src="js/index.js"></script>
 </head>
 <body>
     <div class="dark"></div>
@@ -13,9 +14,9 @@
             <div class="left_wrap">
                 <ul>
                     <li class="white"></li>
-                    <li class="intro_1"></li>
-                    <li class="intro_2"></li>
-                    <li class="intro_3"></li>
+                    <li class="intro_1" id="intro_1"></li>
+                    <li class="intro_2" id-="intro_2"></li>
+                    <li class="intro_3" id="intro_3"></li>
                 </ul>
             </div>
 
@@ -78,8 +79,8 @@
                     </div>
 
                     <div class="hoody">
-                        <div class="shadow"><img src="img/intro_item_shadow.png"></div>
-                        <div class="item"><img src="img/intro_item.png"></div>
+                        <div class="shadow"><img class="hoody_shadow" src="img/intro_item_shadow.png"></div>
+                        <div class="item"><img class="hoody_item" src="img/intro_item.png"></div>
                     </div>
                 </div>
             </div>
@@ -92,9 +93,9 @@
 
         <div class="video">
             <ul>
-                <li><video src="img/tnf_undyed_movie_001.mp4" muted="" loop="" autoplay="" webkit-playsinline="" playsinline="" poster=""></video></li>
-                <li><video src="img/tnf_undyed_movie_002.mp4" muted="" loop="" autoplay="" webkit-playsinline="" playsinline="" poster=""></video></li>
-                <li><video src="img/tnf_undyed_movie_003.mp4" muted="" loop="" autoplay="" webkit-playsinline="" playsinline="" poster=""></video></li>
+                <li><video class="video_1" src="img/tnf_undyed_movie_001.mp4" muted="" loop="" autoplay="" webkit-playsinline="" playsinline="" poster=""></video></li>
+                <li><video class="video_2" src="img/tnf_undyed_movie_002.mp4" muted="" loop="" autoplay="" webkit-playsinline="" playsinline="" poster=""></video></li>
+                <li><video class="video_3" src="img/tnf_undyed_movie_003.mp4" muted="" loop="" autoplay="" webkit-playsinline="" playsinline="" poster=""></video></li>
             </ul>
         </div>
 
@@ -220,6 +221,9 @@
             <img src="img/footer_north_logoset.svg">
         </div>
 
-    
+
+<script defer src="js/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
 </body>
 </html>
