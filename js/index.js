@@ -89,7 +89,7 @@ window.addEventListener('DOMContentLoaded',function(){
             intro_2.classList.remove('remove2');
         }
      
-        if(window.scrollY > invisiHei+window.innerHeight){
+        if(window.scrollY > invisiHei+window.innerHeight/1.2){
             intro_3.classList.add('active');
             intro_3.classList.remove('remove1')
             intro_2.classList.add('remove2');
